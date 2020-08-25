@@ -10,6 +10,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 @ComponentScan("api")
 public class WebAppInitalizer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
+
     @Override
     protected String[] getServletMappings() {
         return new String[]{"/*"};

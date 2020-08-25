@@ -3,6 +3,9 @@ package models;
 public class Transaction{
     private String id;
     private ThisAccount this_account;
+    private OtherAccount other_account;
+    private Details details;
+    private Metadata metadata;
 
     public String getId() {
         return id;
@@ -44,7 +47,5 @@ public class Transaction{
         this.metadata = metadata;
     }
 
-    public OtherAccount other_account;
-    public Details details;
-    public Metadata metadata;
+
 }
